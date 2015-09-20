@@ -1,0 +1,16 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_sortingorder">Set sorting order</string>
+    <string name="pref_order_key" >sort_order</string>
+    <string name="pref_order_default" translatable="false">most_popular</string>
+    <string-array name="pref_order">
+        <item>Most Popular</item>
+        <item>Highest Rated</item>
+    </string-array>
+    <string-array name="pref_order_values">
+        <item>most_popular</item>
+        <item>highest_rated</item>
+    </string-array>
+</resources>
